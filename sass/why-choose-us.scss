@@ -1,0 +1,25 @@
+.why-choose-us:after {
+  clear: both;
+}
+
+.why-choose-us section {
+  float: left;
+  width: 30%;
+  padding: 0 10%;
+  margin-bottom: 15px;
+}
+
+.why-choose-us section img {
+  float: left;
+  width: 10%;
+  margin-right: 10%;
+  margin-top: 15px;
+}
+
+.why-choose-us section .description {
+  display: inline-block;
+  float: left;
+  width: 75%;
+  text-align: left;
+  padding-top: 0;
+}

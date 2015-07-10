@@ -146,56 +146,89 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 1, ../sass/how-it-works.scss */
-.how-it-works {
-  background-color: #f1f1f1;
-  color: #1F5779;
-  overflow: auto;
-  padding-bottom: 5%;
-  border-bottom: 1px #e2e1e1 solid;
-}
-
-/* line 9, ../sass/how-it-works.scss */
 .how-it-works:after {
   clear: both;
 }
 
-/* line 13, ../sass/how-it-works.scss */
-.how-it-works h2 {
-  font-size: 17px;
-  font-family: "HelveticaNeue-Medium";
-  line-height: 50px;
-}
-
-/* line 19, ../sass/how-it-works.scss */
-.how-it-works p {
-  font-family: "HelveticaNeue-Light";
-  font-size: 13px;
-  color: #9AAFBB;
-  line-height: 18px;
-}
-
-/* line 26, ../sass/how-it-works.scss */
-.how-it-works header {
-  text-transform: uppercase;
-  margin-bottom: 80px;
-  margin-top: 30px;
-}
-
-/* line 32, ../sass/how-it-works.scss */
+/* line 5, ../sass/how-it-works.scss */
 .how-it-works section {
   float: left;
   width: 13.3333%;
   padding: 0 10%;
 }
 
-/* line 38, ../sass/how-it-works.scss */
+/* line 11, ../sass/how-it-works.scss */
 .how-it-works section img {
   width: 45%;
 }
 
-/* line 6, ../sass/style.scss */
+/* line 1, ../sass/why-choose-us.scss */
+.why-choose-us:after {
+  clear: both;
+}
+
+/* line 5, ../sass/why-choose-us.scss */
+.why-choose-us section {
+  float: left;
+  width: 30%;
+  padding: 0 10%;
+  margin-bottom: 15px;
+}
+
+/* line 12, ../sass/why-choose-us.scss */
+.why-choose-us section img {
+  float: left;
+  width: 10%;
+  margin-right: 10%;
+  margin-top: 15px;
+}
+
+/* line 19, ../sass/why-choose-us.scss */
+.why-choose-us section .description {
+  display: inline-block;
+  float: left;
+  width: 75%;
+  text-align: left;
+  padding-top: 0;
+}
+
+/* line 7, ../sass/style.scss */
 body {
   font-size: 62.5%;
   background-color: #5e7277;
   text-align: center;
+}
+
+/* line 13, ../sass/style.scss */
+article {
+  background-color: #f1f1f1;
+  border-top: 1px white solid;
+  border-bottom: 1px #e2e1e1 solid;
+  padding-left: 5%;
+  padding-right: 5%;
+  overflow: auto;
+  padding-bottom: 5%;
+}
+
+/* line 23, ../sass/style.scss */
+article h2 {
+  font-size: 17px;
+  font-family: "HelveticaNeue-Medium";
+  line-height: 50px;
+  color: #1F5779;
+}
+
+/* line 30, ../sass/style.scss */
+article p {
+  font-family: "HelveticaNeue-Light";
+  font-size: 13px;
+  color: #9AAFBB;
+  line-height: 18px;
+}
+
+/* line 37, ../sass/style.scss */
+article header {
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  margin-top: 30px;
 }
