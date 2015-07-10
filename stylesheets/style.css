@@ -145,7 +145,55 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-transform: uppercase;
 }
 
-/* line 5, ../sass/style.scss */
+/* line 1, ../sass/how-it-works.scss */
+.how-it-works {
+  background-color: #f1f1f1;
+  color: #1F5779;
+  overflow: auto;
+  padding-bottom: 5%;
+  border-bottom: 1px #e2e1e1 solid;
+}
+
+/* line 9, ../sass/how-it-works.scss */
+.how-it-works:after {
+  clear: both;
+}
+
+/* line 13, ../sass/how-it-works.scss */
+.how-it-works h2 {
+  font-size: 17px;
+  font-family: "HelveticaNeue-Medium";
+  line-height: 50px;
+}
+
+/* line 19, ../sass/how-it-works.scss */
+.how-it-works p {
+  font-family: "HelveticaNeue-Light";
+  font-size: 13px;
+  color: #9AAFBB;
+  line-height: 18px;
+}
+
+/* line 26, ../sass/how-it-works.scss */
+.how-it-works header {
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+/* line 32, ../sass/how-it-works.scss */
+.how-it-works section {
+  float: left;
+  width: 13.3333%;
+  padding: 0 10%;
+}
+
+/* line 38, ../sass/how-it-works.scss */
+.how-it-works section img {
+  width: 45%;
+}
+
+/* line 6, ../sass/style.scss */
 body {
   font-size: 62.5%;
   background-color: #5e7277;

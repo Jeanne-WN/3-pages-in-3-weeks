@@ -1,0 +1,40 @@
+.how-it-works {
+  background-color: rgb(241, 241, 241);
+  color: #1F5779;
+  overflow: auto;
+  padding-bottom: 5%;
+  border-bottom: 1px rgb(226, 225, 225) solid;
+}
+
+.how-it-works:after {
+  clear: both;
+}
+
+.how-it-works h2 {
+  font-size: 17px;
+  font-family: "HelveticaNeue-Medium";
+  line-height: 50px;
+}
+
+.how-it-works p {
+  font-family: "HelveticaNeue-Light";
+  font-size: 13px;
+  color: #9AAFBB;
+  line-height: 18px;
+}
+
+.how-it-works header {
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  margin-top:30px;
+}
+
+.how-it-works section {
+  float: left;
+  width: 13.3333%;
+  padding: 0 10%;
+}
+
+.how-it-works section img {
+  width: 45%;
+}
