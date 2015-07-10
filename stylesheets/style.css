@@ -176,6 +176,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 12, ../sass/why-choose-us.scss */
+.why-choose-us .group {
+  display: table;
+}
+
+/* line 15, ../sass/why-choose-us.scss */
+.why-choose-us .group::after {
+  clear: both;
+  content: " ";
+}
+
+/* line 20, ../sass/why-choose-us.scss */
 .why-choose-us section img {
   float: left;
   width: 10%;
@@ -183,7 +194,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 15px;
 }
 
-/* line 19, ../sass/why-choose-us.scss */
+/* line 27, ../sass/why-choose-us.scss */
 .why-choose-us section .description {
   display: inline-block;
   float: left;
