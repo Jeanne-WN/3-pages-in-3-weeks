@@ -63,32 +63,33 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 2, ../sass/header.scss */
+/* line 1, ../sass/header.scss */
 .welcome {
-  background-image: url(../images/momentum-bg.jpg);
-  background-size: cover;
-  background-position: center center;
-  padding: 250px 250px;
+  padding: 18%;
   position: relative;
   color: white;
   font-family: "HelveticaNeue-light";
   line-height: 30px;
+  background-image: url(../images/momentum-bg.jpg);
+  background-size: cover;
+  background-position: center center;
 }
 
-/* line 13, ../sass/header.scss */
-.welcome * {
-  position: relative;
-}
-
-/* line 17, ../sass/header.scss */
-.opacity-cover {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
+/* line 12, ../sass/header.scss */
+.welcome:before {
+  content: " ";
   background-color: #226994;
   opacity: 0.2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 23, ../sass/header.scss */
+.welcome * {
+  position: relative;
 }
 
 /* line 27, ../sass/header.scss */
@@ -127,29 +128,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-indent: 10px;
   font-size: inherit;
   color: white;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px 0px 0px 5px;
   outline: none;
 }
 
-/* line 62, ../sass/header.scss */
+/* line 63, ../sass/header.scss */
 .search a {
   bottom: 0;
-  position: relative;
   background-color: green;
   display: inline-block;
   line-height: inherit;
-  border: none;
-  padding: 1px;
-  width: 15%;
+  border: 1px solid green;
+  width: 14%;
   border-radius: 0px 5px 5px 0px;
   text-transform: uppercase;
-}
-
-/* line 75, ../sass/header.scss */
-.search .opacity-cover {
-  background-color: white;
-  border-radius: 5px 0px 0px 5px;
-  width: 95%;
 }
 
 /* line 5, ../sass/style.scss */
