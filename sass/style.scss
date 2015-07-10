@@ -1,6 +1,9 @@
 @import "compass/reset";
 @import "compass/css3";
+@import "header";
 
 body {
 	font-size: 62.5%;
+	background-color: rgb(94, 114, 119);
+	text-align: center;
 }
