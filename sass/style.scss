@@ -3,6 +3,7 @@
 @import "header";
 @import "how-it-works";
 @import "why-choose-us";
+@import "feedback";
 
 body {
 	font-size: 62.5%;
@@ -10,7 +11,7 @@ body {
 	text-align: center;
 }
 
-article {
+.container {
 	background-color: rgb(241, 241, 241);
 	border-top: 1px white solid;
   border-bottom: 1px rgb(226, 225, 225) solid;
@@ -20,21 +21,21 @@ article {
   padding-bottom: 5%;
 }
 
-article h2 {
+.container h2 {
   font-size: 17px;
   font-family: "HelveticaNeue-Medium";
   line-height: 50px;
 	color: #1F5779;
 }
 
-article p {
+.container p {
   font-family: "HelveticaNeue-Light";
   font-size: 13px;
   color: #9AAFBB;
   line-height: 18px;
 }
 
-article header {
+.container header {
   text-transform: uppercase;
   margin-bottom: 80px;
   margin-top:30px;

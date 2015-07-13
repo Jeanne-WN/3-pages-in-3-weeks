@@ -1,0 +1,72 @@
+/* line 1, ../sass/footer.scss */
+footer a:visited {
+  color: #1F5779;
+}
+
+/* line 5, ../sass/footer.scss */
+footer a {
+  text-decoration: none;
+  padding: 12px 3px;
+  display: inline-block;
+  width: 13%;
+  border: 1px #1F5779 solid;
+  font-family: "HelveticaNeue-Medium";
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/* line 17, ../sass/footer.scss */
+footer a:first-child {
+  border-right: none;
+  color: white;
+  background-color: #1F5779;
+}
+
+/* line 23, ../sass/footer.scss */
+footer .authors div {
+  display: inline-block;
+  margin: auto 30px;
+  border-radius: 50%;
+  position: relative;
+}
+
+/* line 30, ../sass/footer.scss */
+footer .authors div::before {
+  content: " ";
+  background-color: white;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+/* line 42, ../sass/footer.scss */
+footer .authors div.active::before {
+  opacity: 0.1;
+}
+
+/* line 46, ../sass/footer.scss */
+footer .authors img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+/* line 52, ../sass/footer.scss */
+footer .authors {
+  margin: 50px auto;
+}
+
+/* line 56, ../sass/footer.scss */
+footer .authors .active img {
+  border: 5px #f1f1f1 solid;
+}
+
+/* line 60, ../sass/footer.scss */
+footer .authors div.active {
+  border: 1px #B3B0B0 solid;
+}

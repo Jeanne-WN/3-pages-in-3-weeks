@@ -176,17 +176,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 12, ../sass/why-choose-us.scss */
-.why-choose-us .group {
-  display: table;
-}
-
-/* line 15, ../sass/why-choose-us.scss */
 .why-choose-us .group::after {
   clear: both;
   content: " ";
 }
 
-/* line 20, ../sass/why-choose-us.scss */
+/* line 17, ../sass/why-choose-us.scss */
 .why-choose-us section img {
   float: left;
   width: 10%;
@@ -194,7 +189,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 15px;
 }
 
-/* line 27, ../sass/why-choose-us.scss */
+/* line 24, ../sass/why-choose-us.scss */
 .why-choose-us section .description {
   display: inline-block;
   float: left;
@@ -203,15 +198,88 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-top: 0;
 }
 
-/* line 7, ../sass/style.scss */
+/* line 1, ../sass/feedback.scss */
+.feedback a:visited {
+  color: #1F5779;
+}
+
+/* line 5, ../sass/feedback.scss */
+.feedback a {
+  text-decoration: none;
+  padding: 12px 3px;
+  display: inline-block;
+  width: 13%;
+  border: 1px #1F5779 solid;
+  font-family: "HelveticaNeue-Medium";
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/* line 17, ../sass/feedback.scss */
+.feedback a:first-child {
+  border-right: none;
+  color: white;
+  background-color: #1F5779;
+}
+
+/* line 23, ../sass/feedback.scss */
+.feedback .authors div {
+  display: inline-block;
+  margin: auto 30px;
+  border-radius: 50%;
+  position: relative;
+}
+
+/* line 30, ../sass/feedback.scss */
+.feedback .authors div::before {
+  content: " ";
+  background-color: white;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+/* line 42, ../sass/feedback.scss */
+.feedback .authors div.active::before {
+  opacity: 0.1;
+}
+
+/* line 46, ../sass/feedback.scss */
+.feedback .authors img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+/* line 52, ../sass/feedback.scss */
+.feedback .authors {
+  margin: 50px auto;
+}
+
+/* line 56, ../sass/feedback.scss */
+.feedback .authors .active img {
+  border: 5px #f1f1f1 solid;
+}
+
+/* line 60, ../sass/feedback.scss */
+.feedback .authors div.active {
+  border: 1px #B3B0B0 solid;
+}
+
+/* line 8, ../sass/style.scss */
 body {
   font-size: 62.5%;
   background-color: #5e7277;
   text-align: center;
 }
 
-/* line 13, ../sass/style.scss */
-article {
+/* line 14, ../sass/style.scss */
+.container {
   background-color: #f1f1f1;
   border-top: 1px white solid;
   border-bottom: 1px #e2e1e1 solid;
@@ -221,24 +289,24 @@ article {
   padding-bottom: 5%;
 }
 
-/* line 23, ../sass/style.scss */
-article h2 {
+/* line 24, ../sass/style.scss */
+.container h2 {
   font-size: 17px;
   font-family: "HelveticaNeue-Medium";
   line-height: 50px;
   color: #1F5779;
 }
 
-/* line 30, ../sass/style.scss */
-article p {
+/* line 31, ../sass/style.scss */
+.container p {
   font-family: "HelveticaNeue-Light";
   font-size: 13px;
   color: #9AAFBB;
   line-height: 18px;
 }
 
-/* line 37, ../sass/style.scss */
-article header {
+/* line 38, ../sass/style.scss */
+.container header {
   text-transform: uppercase;
   margin-bottom: 80px;
   margin-top: 30px;
