@@ -1,38 +1,31 @@
-/* line 1, ../sass/footer.scss */
 footer .search input {
   width: 54%;
 }
 
-/* line 5, ../sass/footer.scss */
-footer .search-box {
+footer .search-box{
   padding: 10%;
   background-image: url(../images/about-us-banner.jpg);
 }
 
-/* line 10, ../sass/footer.scss */
 footer .search-box:before {
   opacity: 0.4;
   background-color: #6198BA;
 }
 
-/* line 15, ../sass/footer.scss */
 footer .search span {
   font-family: "HelveticaNeue-Medium";
   font-size: 20px;
   margin-right: 20px;
 }
 
-/* line 21, ../sass/footer.scss */
 footer .reference {
   padding: 20px 10%;
 }
 
-/* line 25, ../sass/footer.scss */
 footer .reference .links {
   float: left;
 }
 
-/* line 29, ../sass/footer.scss */
 footer .reference a {
   text-decoration: none;
   margin-right: 10px;

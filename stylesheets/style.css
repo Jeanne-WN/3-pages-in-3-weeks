@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 1, ../sass/header.scss */
-.welcome {
+.search-box {
   padding: 18%;
   position: relative;
   color: white;
@@ -76,7 +76,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 12, ../sass/header.scss */
-.welcome:before {
+.search-box:before {
   content: " ";
   background-color: #226994;
   opacity: 0.2;
@@ -88,24 +88,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 23, ../sass/header.scss */
-.welcome * {
+.search-box * {
   position: relative;
 }
 
 /* line 27, ../sass/header.scss */
-.welcome h1 {
+.search-box h1 {
   font-family: "HelveticaNeue-Medium";
   font-size: 25px;
 }
 
 /* line 32, ../sass/header.scss */
-.welcome p {
+.search-box p {
   font-size: 14px;
   opacity: 0.7;
 }
 
 /* line 37, ../sass/header.scss */
-.welcome form {
+.search-box form {
   margin-top: 1%;
 }
 
@@ -258,7 +258,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 52, ../sass/feedback.scss */
 .feedback .authors {
-  margin: 50px auto;
+  margin-top: 50px;
 }
 
 /* line 56, ../sass/feedback.scss */
@@ -271,14 +271,57 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border: 1px #B3B0B0 solid;
 }
 
-/* line 8, ../sass/style.scss */
+/* line 1, ../sass/footer.scss */
+footer .search input {
+  width: 54%;
+}
+
+/* line 5, ../sass/footer.scss */
+footer .search-box {
+  padding: 10%;
+  background-image: url(../images/about-us-banner.jpg);
+}
+
+/* line 10, ../sass/footer.scss */
+footer .search-box:before {
+  opacity: 0.4;
+  background-color: #6198BA;
+}
+
+/* line 15, ../sass/footer.scss */
+footer .search span {
+  font-family: "HelveticaNeue-Medium";
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+/* line 21, ../sass/footer.scss */
+footer .reference {
+  padding: 20px 10%;
+}
+
+/* line 25, ../sass/footer.scss */
+footer .reference .links {
+  float: left;
+}
+
+/* line 29, ../sass/footer.scss */
+footer .reference a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #9AAFBB;
+  font-size: 13px;
+}
+
+/* line 9, ../sass/style.scss */
 body {
   font-size: 62.5%;
   background-color: #5e7277;
   text-align: center;
+  font-family: "HelveticaNeue-Light";
 }
 
-/* line 14, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 .container {
   background-color: #f1f1f1;
   border-top: 1px white solid;
@@ -289,7 +332,7 @@ body {
   padding-bottom: 5%;
 }
 
-/* line 24, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 .container h2 {
   font-size: 17px;
   font-family: "HelveticaNeue-Medium";
@@ -297,7 +340,7 @@ body {
   color: #1F5779;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 .container p {
   font-family: "HelveticaNeue-Light";
   font-size: 13px;
@@ -305,7 +348,7 @@ body {
   line-height: 18px;
 }
 
-/* line 38, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 .container header {
   text-transform: uppercase;
   margin-bottom: 80px;
