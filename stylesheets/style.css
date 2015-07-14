@@ -131,9 +131,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 5px 0px 0px 5px;
   outline: none;
+  vertical-align: bottom;
 }
 
-/* line 63, ../sass/header.scss */
+/* line 64, ../sass/header.scss */
 .search a {
   bottom: 0;
   background-color: green;
@@ -143,6 +144,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 14%;
   border-radius: 0px 5px 5px 0px;
   text-transform: uppercase;
+  vertical-align: bottom;
 }
 
 /* line 1, ../sass/how-it-works.scss */
@@ -301,38 +303,40 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 1, ../sass/footer.scss */
 footer .search input {
   width: 54%;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #1F5779;
 }
 
-/* line 5, ../sass/footer.scss */
+/* line 7, ../sass/footer.scss */
 footer .search-box {
   padding: 8%;
   background-image: url(../images/about-us-banner.jpg);
 }
 
-/* line 10, ../sass/footer.scss */
+/* line 12, ../sass/footer.scss */
 footer .search-box:before {
   opacity: 0.4;
   background-color: #6198BA;
 }
 
-/* line 15, ../sass/footer.scss */
+/* line 17, ../sass/footer.scss */
 footer .search span {
   font-family: "HelveticaNeue-Medium";
   font-size: 20px;
   margin-right: 20px;
 }
 
-/* line 21, ../sass/footer.scss */
+/* line 23, ../sass/footer.scss */
 footer .reference {
   padding: 20px 10%;
 }
 
-/* line 25, ../sass/footer.scss */
+/* line 27, ../sass/footer.scss */
 footer .reference .links {
   float: left;
 }
 
-/* line 29, ../sass/footer.scss */
+/* line 31, ../sass/footer.scss */
 footer .reference a {
   text-decoration: none;
   margin-right: 10px;

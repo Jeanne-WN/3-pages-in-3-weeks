@@ -66,9 +66,10 @@
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 5px 0px 0px 5px;
   outline: none;
+  vertical-align: bottom;
 }
 
-/* line 63, ../sass/header.scss */
+/* line 64, ../sass/header.scss */
 .search a {
   bottom: 0;
   background-color: green;
@@ -78,4 +79,5 @@
   width: 14%;
   border-radius: 0px 5px 5px 0px;
   text-transform: uppercase;
+  vertical-align: bottom;
 }
