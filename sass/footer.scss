@@ -4,6 +4,14 @@ footer .search input {
   color: #1F5779;
 }
 
+footer .search-box .search ::-webkit-input-placeholder {
+	color: #1F5779;
+}
+
+footer .search-box .search :-moz-placeholder {
+	color: #1F5779;
+}
+
 footer .search-box{
   padding: 8%;
   background-image: url(../images/about-us-banner.jpg);

@@ -61,6 +61,14 @@
 	vertical-align: bottom;
 }
 
+.search ::-webkit-input-placeholder {
+	color: white;
+}
+
+.search :-moz-placeholder {
+	color: white;
+}
+
 .search a {
 	bottom: 0;
 	background-color: green;

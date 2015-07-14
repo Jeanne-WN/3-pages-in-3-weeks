@@ -6,35 +6,45 @@ footer .search input {
 }
 
 /* line 7, ../sass/footer.scss */
+footer .search-box .search ::-webkit-input-placeholder {
+  color: #1F5779;
+}
+
+/* line 11, ../sass/footer.scss */
+footer .search-box .search :-moz-placeholder {
+  color: #1F5779;
+}
+
+/* line 15, ../sass/footer.scss */
 footer .search-box {
   padding: 8%;
   background-image: url(../images/about-us-banner.jpg);
 }
 
-/* line 12, ../sass/footer.scss */
+/* line 20, ../sass/footer.scss */
 footer .search-box:before {
   opacity: 0.4;
   background-color: #6198BA;
 }
 
-/* line 17, ../sass/footer.scss */
+/* line 25, ../sass/footer.scss */
 footer .search span {
   font-family: "HelveticaNeue-Medium";
   font-size: 20px;
   margin-right: 20px;
 }
 
-/* line 23, ../sass/footer.scss */
+/* line 31, ../sass/footer.scss */
 footer .reference {
   padding: 20px 10%;
 }
 
-/* line 27, ../sass/footer.scss */
+/* line 35, ../sass/footer.scss */
 footer .reference .links {
   float: left;
 }
 
-/* line 31, ../sass/footer.scss */
+/* line 39, ../sass/footer.scss */
 footer .reference a {
   text-decoration: none;
   margin-right: 10px;

@@ -70,6 +70,16 @@
 }
 
 /* line 64, ../sass/header.scss */
+.search ::-webkit-input-placeholder {
+  color: white;
+}
+
+/* line 68, ../sass/header.scss */
+.search :-moz-placeholder {
+  color: white;
+}
+
+/* line 72, ../sass/header.scss */
 .search a {
   bottom: 0;
   background-color: green;
